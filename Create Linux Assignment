@@ -1,0 +1,73 @@
+ASSIGNMENT ON LINUX COMMANDS 
+  
+NAME:- Alle Chithra
+ID:- B191286
+CLASS:- CSE-C1
+ 
+1)What is the command used to sort a file ? ans:-SORT command is used to sort a file, arranging the records in a particular order. 
+ 
+2)How will you find which operating system your system is running on  unix? 
+ans:-Opening terminal and then typing the command "uname -a" will display the operating system our system is running in linux. 
+ 
+3)which character you will append to a command to run the process in background? ans:-By appending an ampersand character ( & ) to the end of the commands. 
+ 
+4)How do you see command line history in unix? 
+ans:-By typing History command 
+ 
+5)How do you find which process is taking how much cpu? 
+ans:-The vmstat command will display the information about system processes, memory, swap, I/O, and CPU performance. It will display the average details since the last reboot. 
+ 
+6)How do you check how much space is left in current drive? 
+ans:-df 
+  
+7)Which command is used to count the number of characters in a file? 
+ans:-wc -m command  
+ 
+8)Which command is used to determine the size of a directory in unix? 
+ans:-du command 
+ 
+9)Which switch is used for displaying the result of a command in human readable format? 
+ans:-df -h command 
+ 
+10)Which command is used to list all the running processes? 
+ans:-top coomand 
+ 
+11)Which command is used to show real time view of the running processes? 
+ans:-ps command 
+ 
+12)Which of the commands is used to compress a file? 
+ans:-zip, gzip, bzip2,xz. 
+ 
+13)Which command is used to delete a empty directory hierarchy of directory'? 
+ans:-rm -r <directory name> 
+ 
+14)Which command is used to create a directory,hiearchy of directory ? 
+ans:-mkdir 
+ 
+15)Which command is used to know IP address of your system? 
+ans:-ipconfig /all 
+ 
+16)Which command will not accept file name as input? 
+ans:-malix 
+ 
+17)Which command is used to rename a file?  
+ans:-mv<oldfile><newfile> 
+ 
+18)The purpose of the command "type"? 
+ans:-"The standard output of the type command contains information about the specified command and identifies whether this is a shell built-in command,subroutine,alias,or keyword.The type command indicates how the specified command would be interpreted if used."  
+ 
+19)Write command with related option to know the kernel file? 
+ ans:-uname -r 
+ 
+20)Which file contains the root password? 
+ans:-/etc/passwd file 
+ 
+21) 
+i.Write a command to display the fields:          Name,Department,Salary? 
+ans:-awk '{print $2,$4,$6}'emp.1s 
+ 
+ii.What is the output of cut -d\| -f 2,3 emp.1st ans:- a.k.shukla|g.m jai sharma|director sumit chakrobarty|d.g.m barun sengupta|director 
+n.k. gupta|chairman chanchal sanghvi|director karuna ganguly|g.m 
+s.n. dasgopul|manager jayant Choudary|executive anil aggarwal|manager lalit chowdury|director shyam saksena|d.g.m sudhir agarwal|executive 
+j.b. saxena|g.m. 
+v.k. agarwal|g.m. iii.What is the ouput of sort -t"|" -k 2 emp.1st ans:-pipe dquote> iv.Write a command to sort text based on fifth field (DOB) ans:-sort -k 6 emp.1st
