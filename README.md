@@ -1,7 +1,7 @@
 ### Hi, Sir
-I am Alle Chithra, bearing ID- B191286. 
-I have uploaded all the codes that I have learnt in the lab, in respective repositories.
- I have added codes for the assignment that you have assigned for us
+# I am Alle Chithra, bearing ID- B191286. 
+# I have uploaded all the codes that I have learnt in the lab, in respective repositories.
+ # I have added codes for the assignment that you have assigned for us.
 
 <!--
 **B191286-Chithra/B191286-Chithra** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
